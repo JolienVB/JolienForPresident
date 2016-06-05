@@ -1,0 +1,291 @@
+h1{
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  font-size: 400%;
+  background-color: deepskyblue;
+  padding-top: 50px;
+  padding-bottom: 55px;
+}
+
+h3{
+  font-family: 'Lobster Two', cursive;
+  position: absolute;
+  top: 100px;
+  left: 800px;
+  font-size: 150%;
+}
+
+nav{
+  width: 220px;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+  background-color: paleturquoise;
+}
+
+.post1, .post2, .post3{
+  background-color: paleturquoise;
+  position: absolute;
+  width: 540px;
+  top: 190px;
+  left: 430px;
+  padding: 10px;
+}
+
+h2{
+  font-family: 'Lobster Two', cursive;
+  font-size: 200%;
+  text-align: center;
+}
+
+h4{
+  padding-bottom: 20px;
+}
+
+#tekst{
+  font-size: 115%;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+
+#more{
+  font-family: 'Lobster Two', cursive;
+  margin-left: 10px;
+}
+
+#tags{
+  font-family: 'Lobster Two', cursive;
+  font-size: 115%;
+  padding-top: 20px;
+  padding-left: 10px;
+  color: deepskyblue;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Lobster Two', cursive;
+  padding-bottom: 15px;
+  padding-right: 30px;
+}
+
+#menu, #categorien, #menufooter,#categorienfooter{
+  font-size: 200%;
+  padding-bottom: 15px;
+}
+
+#me:hover, #old:hover, #new:hover, #more:hover, #love:hover, #lust:hover, #faith:hover, #dreams:hover, #mefooter:hover, #oldfooter:hover, #newfooter:hover, #morefooter:hover, #lovefooter:hover, #lustfooter:hover, #faithfooter:hover, #dreamsfooter:hover{
+  color: deepskyblue;
+}
+
+#me, #new, #old, #love, #lust, #faith, #dreams{
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-family: 'Lobster Two', cursive;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 107%;
+  display: block;
+}
+
+#old{
+  padding-bottom: 50px;
+}
+
+.tags{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.post2{
+  top: 650px;
+}
+
+.post3{
+  top: 1130px;
+}
+
+#more3{
+  margin-left: -20px;
+}
+
+.footer{
+  background-color: paleturquoise;
+  height: 200px;
+  position: absolute;
+  top: 1660px;
+  width: 100%;
+}
+
+#mefooter, #newfooter, #oldfooter, #lovefooter, #lustfooter, #faithfooter, #dreamsfooter{
+  display: block;
+}
+
+#mefooter{
+  position: absolute;
+  top: 65px;
+}
+
+#newfooter{
+  position: absolute;
+  top: 100px;
+}
+
+#oldfooter{
+  position: absolute;
+  top: 135px;
+}
+
+.categoriefooter{
+  position: absolute;
+  left: 220px;
+  top: 20px;
+}
+
+#fbfooter, #instagramfooter, #twitterfooter{
+  position: absolute;
+  top: 70px;
+  width: 50px;
+  height: 50px;
+}
+
+#fbfooter{
+  right: 300px;
+}
+
+#twitterfooter{
+  right: 240px;
+}
+
+#instagramfooter{
+  right: 180px;
+}
+
+#menufooter{
+  position: absolute;
+  top: 20px;
+  font-family: "Thimes New Roman";
+}
+
+#tekst{
+   font-family: "Thimes New Roman";
+
+ }
+
+.menuutjefooter, .categoriefooter{
+  margin-left: 200px;
+}
+
+@media (max-width: 1160px){
+  h3{
+    left: 500px;
+  }
+}
+
+@media (max-width: 1010px) {
+  .post3, .post2, .post1{
+    left: 300px;
+  }
+  .menuutjefooter{
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 860px) {
+  .post3, .post2, .post1{
+    left: 250px;
+  }
+  #instagramfooter{
+    right: 20px;
+  }
+  #twitterfooter{
+    right: 80px;
+  }
+  #fbfooter{
+    right: 140px;
+  }
+}
+
+@media (max-width: 780px) {
+  .post3, .post2, .post1{
+    left: 280px;
+    width: 60%;
+  }
+  h2{
+    padding-top: 10%;
+  }
+  .post2{
+    top: 680px;
+  }
+  .post3{
+    top: 1186px;
+  }
+  .footer{
+    top: 1800px;
+  }
+}
+
+@media (max-width: 660px) {
+  h3{
+    left: 200px;
+  }
+  .post3, .post2, .post1{
+    left: 245px;
+    width: 60%;
+  }
+  .post2{
+    top: 700px;
+  }
+  .post3{
+    top: 1230px;
+  }
+  .footer{
+    height: 200px;
+  }
+  #instagramfooter{
+    right: 20px;
+  }
+  #twitterfooter{
+    right: 70px;
+  }
+  #fbfooter{
+    right: 120px;
+  }
+  #menufooter, #mefooter, #newfooter, #oldfooter{
+    left: 20px;
+  }
+  .categoriefooter{
+    left: 50px;
+  }
+}
+
+@media (max-width: 580px) {
+  .post3, .post2, .post1{
+    width: 270px;
+  }
+  .post3{
+    top: 1210px;
+  }
+  #mefooter, #oldfooter, #newfooter{
+
+  }
+  #categorienfooter, #lovefooter, #lustfooter, #faithfooter, #dreamsfooter{
+    display: block;
+    margin-left: 20px;
+  }
+  #fbfooter, #instagramfooter, #twitterfooter{
+    display: none;
+  }
+}
